@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #111;
+}
+
+h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+acronym {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+span {
+	display: block;
+}
+
+.h {
+	padding: 20px;
+	background: #111;
+	color: #fff;
+	font-family: "Monaco", monospace;
+	font-weight: normal;
+	text-align: center;
+}
+
+.characters {
+	padding: 40px;
+	background: #fff;
+	color: #111;
+	font-family: "Monaco", monospace;
+	font-size: 21px;
+	text-align: center;
+}
+
+.characters p {
+	padding: 20px;
+}
+
+.normal {
+	color: #999;
+	display: block;
+	padding: 0 0 10px 0;
+}
+
+.alt {
+	display: none;
+}
+
+/*
+ * -----> De Tooltips
+ */
+
+.tool-tip {
+	padding: 28px 0 0 0;
+	background: transparent url(tooltip_up.gif) no-repeat 0 0;
+	border: solid 2px #fff;
+	border-top: none;
+	max-width: 300px;
+}
+
+.tool-tip b {
+	margin: 5px 0 0 0;
+	padding: 5px 0 0 0;
+	border-top: solid 1px #fff;
+	font-weight: normal;
+	display: block;
+}
+
+.tool-title {
+	display: none;
+}
+
+.tool-text {
+	padding: 8px 12px;
+	font-family: "Monaco", monospace;
+	text-align: center;
+	line-height: 150%;
+	background: #111;
+	color: #fff;
+}
+
+.tool-posx {
+	background: transparent url(tooltip_up_right.gif) no-repeat right top;
+}
+
+.tool-posy {
+	padding: 0 0 28px 0;
+	background: transparent url(tooltip_down.gif) no-repeat left bottom;
+	border: solid 2px #fff;
+	border-bottom: none;
+}
+
+.tool-posy.tool-posx {
+	padding: 0 0 28px 0;
+	background: transparent url(tooltip_down_right.gif) no-repeat right bottom;
+	border: solid 2px #fff;
+	border-bottom: none;
+}
+
+
+.title-tip {
+	padding: 28px 0 0 0;
+	background: transparent url(titletip_up.gif) no-repeat 0 0;
+	border: solid 2px #111;
+	border-top: none;
+	max-width: 300px;
+}
+
+.title-title {
+	display: none;
+}
+
+.title-text {
+	padding: 8px 12px;
+	font-family: "Monaco", monospace;
+	text-align: center;
+	line-height: 150%;
+	background: #fff;
+	color: #111;
+}
+
+.title-posx {
+	background: transparent url(titletip_up_right.gif) no-repeat right top;
+}
+
+.title-posy {
+	padding: 0 0 28px 0;
+	background: transparent url(titletip_down.gif) no-repeat left bottom;
+	border: solid 2px #111;
+	border-bottom: none;
+}
+
+.title-posy.title-posx {
+	padding: 0 0 28px 0;
+	background: transparent url(titletip_down_right.gif) no-repeat right bottom;
+	border: solid 2px #111;
+	border-bottom: none;
+}
