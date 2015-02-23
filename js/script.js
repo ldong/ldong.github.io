@@ -21,9 +21,9 @@ require(['jQuery', 'bootstrap','jQeasing', 'jQslimscroll','jQfullPage'], functio
   $(document).ready(function () {
     $('#fullpage').fullpage({
       menu: true,
-      slidesNavigation: false,
-      slidesNavPosition: 'bottom',
-        //Accessibility
+      // slidesNavigation: false,
+      // slidesNavPosition: 'bottom',
+      //Accessibility
       keyboardScrolling: true,
       animateAnchor: true,
       recordHistory: true,

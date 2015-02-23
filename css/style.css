@@ -48,5 +48,17 @@
 }
 
 .profilio {
-  background-color: rgb(75, 191, 195);
+  background-color: #48B8F2;
+}
+
+.project {
+  margin: 0, auto;
+  left: 50%;
+  top: 50%;
+}
+
+img {
+  top: 50px:;
+  width: 300;
+  height: 480;
 }
