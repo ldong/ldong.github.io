@@ -1,23 +1,93 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>ldong</title>
-    <meta charset="utf-8"/>
-    <style type="text/css" media="screen">
-        #calendar p {
-            height: 200px;
-            width: 600px;
-            color: red;
-        }
-    </style>
-</head>
-<body>
-    <header>
-    </header>
-    <div id='header'>
-        <a href="./resume.pdf">My resume</a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/jquery.fullPage.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script data-main="./js/script.js" src="./js/require.js"></script>
+    <title>Lin Dong</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-static-top navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#home">ldong</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#home">Home</a>
+            </li>
+            <li><a href="#profilio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div id="fullpage">
+      <div id='home' class="section">
+        <div class="container-fluid">
+          <div id='background-page' class='background'></div>
+        </div>
+      </div>
+
+      <div id='profilio' class="profilio section">
+        <div class="container">
+          <div class="slide">
+
+          </div>
+          <div class="slide">
+
+          </div>
+          <div class="slide">
+
+          </div>
+          <div class="slide">
+
+          </div>
+        </div>
+      </div>
+
+      <div id='about' class="section">
+        <div class="container-fluid">
+          <div class="row clearfix">
+            <div class="col-md-4 column">
+            </div>
+            <div class="col-md-4 column">
+              <div class="my-profile">
+                <img src="./assets/profile.png" alt="Picture Avatar" />
+              </div>
+              <h3> Who am I? </h3>
+              <p>
+                My name is Lin Dong, and I graduated from <a class="gt" href='http://www.gatech.edu'></a>
+              </p>
+
+              <p> You can find me here <i class="fa fa-arrow-down"></i></p>
+                <ul class='list-inline'>
+                  <li>
+                    <a class="fa fa-twitter fa-lg icon-color" href='http://twitter.com/_ldong'> twitter</a>
+                  </li>
+                  <li>
+                    <a class="fa fa-github fa-lg icon-color" href='http://github.com/ldong'> github</a>
+                  </li>
+                  <li>
+                    <a class="fa fa-book fa-lg icon-color" href='http://ldong.org/resume.pdf'> resume</a>
+                  </li>
+
+                </ul>
+            </div>
+            <div class="col-md-4 column">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <footer>
-    </footer>
-</body>
+  </body>
 </html>
